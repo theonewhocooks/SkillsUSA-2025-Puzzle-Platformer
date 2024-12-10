@@ -11,17 +11,20 @@ public class Levers : MonoBehaviour
     public GameObject Lever3;
     public GameObject Lever4;
     public GameObject Lever5;
-    public GameObject Lever;
+    public GameObject Lever6;
 
+
+    void OnColliderEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player1"))
+        {
+            Debug.Log("putttttt it innnn my asssssss");
+
+        }
+    }
 
     void Update()
     {
-        Lever1.OnTriggerEnter(Lever1);
-        {
-            charHolder.text = charHolder.text + "1";
-            Debug.Log("geirstrachtel");
-        }
-
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             charHolder.text = charHolder.text + "2";
