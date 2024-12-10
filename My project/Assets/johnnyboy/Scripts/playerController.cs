@@ -27,9 +27,14 @@ public class playerController : MonoBehaviour
 
     void Run()
     {
-       float _horizontalInput = Input.GetAxis("Horizontal");
-
-       _playerRb.velocity = new Vector2(_horizontalInput * MoveSpeed, _playerRb.velocity.y);
+  	    if (Input.GetKey(KeyCode.A))
+	    {
+		transform.position += Vector3.left * MoveSpeed * Time.deltaTime;
+	    }
+	    if (Input.GetKey(KeyCode.D))
+	    {
+		transform.position += Vector3.right * MoveSpeed * Time.deltaTime;
+	    }
 
     }
 
@@ -67,5 +72,4 @@ public class playerController : MonoBehaviour
     {
         _playerRb.velocity = new Vector2(_playerRb.velocity.x, bounceForce);
     }
-
 }

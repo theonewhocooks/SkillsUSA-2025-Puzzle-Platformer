@@ -6,12 +6,12 @@ using UnityEngine.SceneManagement;
 public class Menus : MonoBehaviour
 {
     public int levelOne;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
+    void start()
+    {
+
+    }
+    
     public void OnPlayButtonPressed()
     {
         SceneManager.LoadScene(levelOne);
