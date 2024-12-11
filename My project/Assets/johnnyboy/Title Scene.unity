@@ -123,6 +123,24 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &577560840 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2234637855420342653, guid: a659c4795feb6481787e8ccd1b6cf1b6, type: 3}
+  m_PrefabInstance: {fileID: 1524244207}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &577560841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577560840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bf3732475c8b4a7e807da43935a907f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelOne: 1
 --- !u!1 &749531591
 GameObject:
   m_ObjectHideFlags: 0
@@ -566,13 +584,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2234637855420342653, guid: a659c4795feb6481787e8ccd1b6cf1b6, type: 3}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 577560841}
+        m_TargetAssemblyTypeName: Menus, Assembly-CSharp
+        m_MethodName: OnPlayButtonPressed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -739,7 +757,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2234637855420342653, guid: a659c4795feb6481787e8ccd1b6cf1b6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 577560841}
   m_SourcePrefab: {fileID: 100100000, guid: a659c4795feb6481787e8ccd1b6cf1b6, type: 3}
 --- !u!1 &1616025894
 GameObject:
