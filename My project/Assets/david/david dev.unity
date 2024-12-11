@@ -1360,12 +1360,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 725166557}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -41.24, y: -23.29, z: 1.1059971}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -41.44287, y: -23.651913, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1517954634}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &725166559
 SpriteRenderer:
@@ -1431,13 +1431,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17874c0b47f6343c78c55944b6e92590, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  charHolder: {fileID: 0}
-  Lever1: {fileID: 725166557}
-  Lever2: {fileID: 0}
-  Lever3: {fileID: 0}
-  Lever4: {fileID: 0}
-  Lever5: {fileID: 0}
-  Lever6: {fileID: 0}
 --- !u!60 &725166561
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2842,8 +2835,7 @@ Transform:
   m_LocalPosition: {x: -0.20286821, y: -0.36191255, z: -1.1059971}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 725166558}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1560738659
@@ -3259,3 +3251,4 @@ SceneRoots:
   - {fileID: 577905750}
   - {fileID: 1389989532}
   - {fileID: 1517954634}
+  - {fileID: 725166558}
