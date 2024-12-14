@@ -8,7 +8,7 @@ public class Levers : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player1"))
+        if (other.gameObject.CompareTag("Player"))
         {
             other.gameObject.transform.position = targetPosition;
         }
