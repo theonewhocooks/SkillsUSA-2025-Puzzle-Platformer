@@ -16,6 +16,5 @@ public class DadScript : MonoBehaviour
             transform.position.z
         );
         transform.position = randomPosition;
-        Debug.Log(randomPosition);
     }
 }
