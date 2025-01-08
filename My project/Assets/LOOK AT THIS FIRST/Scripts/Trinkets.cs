@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Trinkets2 : MonoBehaviour
+public class Trinkets : MonoBehaviour
 {
     private int hoards = 0;
     public GameObject MegaWarp;
@@ -12,7 +12,7 @@ public class Trinkets2 : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player2"))
+        if (other.gameObject.CompareTag("Player1"))
         {
             hoards += 1;
             Vector3 randomPosition = new Vector3(
@@ -22,10 +22,12 @@ public class Trinkets2 : MonoBehaviour
             );
             transform.position = randomPosition;
 
-            if (hoards == 1)
+            if (hoards == 5)
             {
                 MegaWarp.SetActive(true);
             }
         }
     }
+
+
 }

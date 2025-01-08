@@ -15,9 +15,9 @@ EditorBuildSettings:
     path: Assets/johnnyboy/DaddyJohn.unity
     guid: 98be7ddd7ba774f7ea5384f344e538d6
   - enabled: 1
-    path: Assets/david/david dev.unity
+    path: Assets/LOOK AT THIS FIRST/david dev.unity
     guid: 7c6aea7dc61f641c09d75bd096c22104
   - enabled: 1
-    path: Assets/david/Level2.unity
+    path: Assets/LOOK AT THIS FIRST/Level2.unity
     guid: 82c2ca8d28dda4b458aaaada32cd4df2
   m_configObjects: {}

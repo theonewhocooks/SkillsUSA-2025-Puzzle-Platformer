@@ -10,6 +10,7 @@ public class SecondLevelEnd : MonoBehaviour
     public Vector3 targetPosition2;
     public GameObject winText1;
     public GameObject winText2;
+    public GameObject button;
 
     // Update is called once per frame
     void Update()
@@ -23,12 +24,14 @@ public class SecondLevelEnd : MonoBehaviour
         {
            secondPlayer.transform.position = targetPosition2;
            winText1.SetActive(true);
+           button.SetActive(true);
         }
 
         if (other.gameObject.CompareTag("Player2"))
         {
            firstPlayer.transform.position = targetPosition1;
            winText2.SetActive(true);
+           button.SetActive(true);
         }
     }
 
