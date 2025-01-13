@@ -442,7 +442,7 @@ Transform:
   m_GameObject: {fileID: 14399464}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.2665, y: -27.4305, z: 0}
+  m_LocalPosition: {x: 9.5, y: -27.14, z: 0}
   m_LocalScale: {x: 3.0643651, y: 2.7254312, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4821,8 +4821,8 @@ Transform:
   m_GameObject: {fileID: 808907964}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0375, y: 9.1035, z: -4.4171352}
-  m_LocalScale: {x: 17.147282, y: 8.148782, z: 1}
+  m_LocalPosition: {x: -0.0375, y: 8.7434, z: -4.4171352}
+  m_LocalScale: {x: 17.147282, y: 8.218862, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -5928,7 +5928,7 @@ Transform:
   m_GameObject: {fileID: 1066946388}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.6791, y: -27.3887, z: 0}
+  m_LocalPosition: {x: -8.29, y: -27.16, z: 0}
   m_LocalScale: {x: 3.2802908, y: 2.8720348, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9372,7 +9372,7 @@ MonoBehaviour:
   targetPosition2: {x: 84, y: 48, z: 0}
   winText1: {fileID: 1231396751}
   winText2: {fileID: 400597859}
-  button: {fileID: 0}
+  button: {fileID: 1177591906}
 --- !u!1 &1637118625
 GameObject:
   m_ObjectHideFlags: 0
